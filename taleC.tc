@@ -1,0 +1,39 @@
+Scene(start){
+    "hello, world!"
+    "this is the project of taleC,"\
+    "A programming language for AVG based on C."
+    "Now let\'s start the instruction!"
+    "If you are ready, press any key to continue."
+    $
+    "First it comes \\@ rule."
+    $
+    "haru" @> "Hello! I\'m haru. Haru means spring in Japanese, And I hope I will bring you the vitality of spring!"
+    $
+    "Me"@> "It's brave of you to speak in English, haru.\nAnd you see that, the name and word are deliminated by marking character\'>\'."
+    $
+    "Me"   @:"and you can also do something like this,the blank before \\@ and behind the marking character will be neglected."
+    $
+    "however, It may be tiring to repeat enter the name, so tag is allowed here."
+    $
+    char* me = "\"Me\"";
+    me @> "And as you see, you can add C code freely between the taleC code."
+    "\tWell, I know that two kind of deliminator cannot satisfy you!"
+    "\tSo we introduce self-defined deliminator like this."
+    $
+    char* h = "haru";
+    h @(->) "hi,my friend! I\'m back!"
+    "like this, what you enter in the () will be used as a deliminator."
+}
+
+    "haha! you are ready! Let's enter Scene!"
+Scene(hello){
+    char* J = "James Joys";
+    J @> "hello!,my friend! It's crazy that we can meet here!"
+    "hello!"
+    $
+}
+Scene(nice){
+    "nice"
+    $
+}
+ 
