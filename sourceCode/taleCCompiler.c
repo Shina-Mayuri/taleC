@@ -39,8 +39,7 @@ int main(void) {
     int lastTag = 0;
 
     //从文件中读取lastTag
-    printf("this program is maded by :");
-    printf("\n201840096 张皓庭 有训\n201840136 赵昌 有训\n201840132 吴佳旭 有训\n");
+    printf("this program is made by Shina-Mashiro.");
     printf("Are you sure to compile the source code?[y/n]\n");
     char input = getchar();
     //if (input == 'n') {
